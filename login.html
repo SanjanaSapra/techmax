@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font.css.css">   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.scss">
+</head>
+<body>
+    <div class="mainbox">
+        <div class="loader"></div>
+    </div>
+    <header class="position-fixed w-100 bg-white">
+        <div class="main-header">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                   
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                       
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-items">
+                                <a href="index.html" class="text-decoration-none pe-5 text-primary fw-semibold">Home</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="about.html" class="text-decoration-none pe-5 text-secondary fw-semibold">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="text-decoration-none pe-5 text-secondary fw-semibold dropdown-toggle">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="choose.html">Why Choose Us</a></li>
+                                    <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                                    <li><a class="dropdown-item" href="service.html">Service</a></li>
+                                    <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                                    <li><a class="dropdown-item" href="login.html">Login & Ragister</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-items">
+                                <a href="blog.html" class="text-decoration-none pe-5 text-secondary fw-semibold">Blog</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="contact.html" class="text-decoration-none pe-5 text-secondary fw-semibold">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav2 d-none d-md-block">
+                        <div class="d-flex">
+                            <div class="nav-item d-flex align-items-center">
+                                <div class="nav-icon">
+                                    <i class="bi bi-telephone-fill h3 me-3 text-primary"></i>
+                                </div>
+                                <div class="nav-num py-2">
+                                    <h6 class=" font-12 ms-2 mt-2">Free Consultant</h6>
+                                    <h6 class=" font-14 ms-2 mt-2">+1234 567 890</h6>
+                                </div>
+                            </div>
+                            <div class="header-search hicon me-2 ms-4 mt-3">
+                                    <i class="bi bi-search"></i>
+                            </div>
+                            <div class="header-cart hicon mt-3">
+                                    <i class="bi bi-cart2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                </div>
+                
+            </nav> 
+        </div>
+    </header>     
+
+
+     <!-- banner  -->
+
+     <div class="about-banner">
+        <div class="about-content">
+            <h1 class="text-white font-60 text-center">Login & Ragister</h1>
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb text-center justify-content-center">
+                  <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+                  <li class="breadcrumb-item active text-white" aria-current="page">Login & Ragister</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- login  -->
+
+    <div class="login padding-80">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form action="" class="border rounded p-5">
+                        <h1>Login</h1>
+                        <div class="col-12 py-2 my-3">
+                            <input type="text" placeholder="Username Or Email" class="form-control py-3"  >
+                        </div>
+                        <div class="col-12 py-2 my-3">
+                            <input type="text" placeholder="password" class="form-control py-3"  >
+                        </div>
+                        <div class="">
+                            <input type="checkbox"><h6 class="ms-2 d-inline text-secondary">Remember Me</h6>
+                        </div>
+                        <button class="t-btn3 btn-primary w-100 mt-3 py-3">Submit now</button>
+                    </form>
+                    
+                </div>
+                <div class="col-12 col-md-6">
+                    <form action="" class="border rounded p-5">
+                        <h1>Ragister</h1>
+                        <div class="col-12 py-2 my-3">
+                            <input type="text" placeholder="Email" class="form-control py-3"  >
+                        </div>
+                        <div class="col-12 py-2 my-3">
+                            <input type="text" placeholder="Username Or Email" class="form-control py-3"  >
+                        </div>
+                        <div class="col-12 py-2 my-3">
+                            <input type="text" placeholder="password" class="form-control py-3"  >
+                        </div>
+                        <div class="col-12 py-2 my-3">
+                            <input type="text" placeholder=" Confirm password" class="form-control py-3"  >
+                        </div>
+                        <div class="">
+                            <input type="checkbox"><h6 class="ms-2 d-inline text-secondary">Remember Me</h6>
+                        </div>
+                        <button class="t-btn3 btn-primary w-100 mt-3 py-3">Submit now</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer  -->
+
+    <footer>
+        <div class="footer-bg">
+            <div class="container padding-80">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="f-logo">
+                            <img src="img/logo-white.png" alt="">
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mt-4"><i class="bi bi-telephone me-2 text-primary"></i>
+                                +91 458 654 528</li>
+                            <li class="mt-2"><i class="bi bi-envelope me-2 text-primary"></i>
+                                info@example.com</li>
+                            <li class="mt-2"><i class="bi bi-geo-alt me-2 text-primary"></i>
+                                60 East 65th Street, NY</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="f-title text-primary mt-3">
+                            <h4>Useful Links</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mt-4">Terms & Conditions</li>
+                            <li class="mt-2">About Company</li>
+                            <li class="mt-2">Payment Gatway</li>
+                            <li class="mt-2">Policy</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="f-title text-primary mt-3">
+                            <h4>Our Services</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mt-4">Data Security</li>
+                            <li class="mt-2">IT Managment</li>
+                            <li class="mt-2">Outsourcing</li>
+                            <li class="mt-2">Networking</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="f-title text-primary mt-3">
+                            <h4>Support</h4>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mt-4">Documentation</li>
+                            <li class="mt-2">Support</li>
+                            <li class="mt-2">FAQS</li>
+                            <li class="mt-2">Download</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-light py-5">
+                <div class="container">
+                    <div class="d-block d-sm-flex footer-back justify-content-between align-items-center">
+                        <h6 class="text-white">© Copyrights 2022 Techmax All rights reserved.</h6>
+                        <div class="f-icon d-flex">
+                            <div class="social">
+                                <a href="#"><i class="bi bi-facebook text-white"></i></a>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-twitter text-white"></i></a>
+                            </div>
+                            <div class="social">
+                                <a href="#"><i class="bi bi-linkedin text-white"></i></a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script>
+        $(window).load(function () {
+            $(".mainbox").fadeOut(2000);
+        })
+        $(window).scroll(function (){
+            if ($(window).scrolltop() > 200) {
+                $(".main-header").addclass("bg-white position-fixed top-0 shadow")
+                $("header").removeclass("bg-white position-fixed")
+            }
+            else {
+                $(".main-header").addclass("bg-white position-fixed shadow")
+                $("header").removeclass("position-fixed top-0")
+            }
+        })
+    </script>
+</body>
